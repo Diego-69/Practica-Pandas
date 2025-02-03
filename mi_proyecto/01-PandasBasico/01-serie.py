@@ -1,4 +1,4 @@
-
+# serie de pandas
 import pandas as pd
 
 # esto es un ejemplo de una serie de pandas

@@ -1,6 +1,7 @@
+# leer un archivo csv
 import pandas as pd
 
-df = pd.read_csv("mi_proyecto/data.csv")
+df = pd.read_csv("Practica-Pandas/mi_proyecto/data.csv")
 
 # imprime todo el dataframe
 print(df.to_string())
