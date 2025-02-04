@@ -6,6 +6,7 @@ Los ejemplos de esta página usan un archivo CSV llamado: 'data.csv'.
 '''
 
 # Mostrar la relación entre las columnas:
+
 import pandas as pd
 
 df = pd.read_csv('data.csv')

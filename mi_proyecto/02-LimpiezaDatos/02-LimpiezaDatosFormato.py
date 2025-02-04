@@ -7,6 +7,7 @@ convertir todas las celdas en el columnas en el mismo formato.
 '''
 
 # Convertir hasta la fecha:
+
 import pandas as pd
 
 df = pd.read_csv('mi_proyecto/data.csv')

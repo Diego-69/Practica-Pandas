@@ -6,10 +6,11 @@ para visualizar el diagrama en la pantalla.
 '''
 
 # Importe pyplot desde Matplotlib y visualice nuestro DataFrame:
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
-df = pd.read_csv('data.csv')
+df = pd.read_csv('Practica-Pandas/mi_proyecto/data.csv')
 
 df.plot()
 
@@ -35,6 +36,7 @@ df.plot(kind = 'scatter', x = 'Duration', y = 'Calories')
 plt.show()
 
 # Un diagrama de dispersión donde no hay relación entre las columnas:
+
 import pandas as pd
 import matplotlib.pyplot as plt
 
@@ -56,5 +58,6 @@ para crear el histograma:
 '''
 
 # Ejemplo
+
 df["Duration"].plot(kind = 'hist')
 

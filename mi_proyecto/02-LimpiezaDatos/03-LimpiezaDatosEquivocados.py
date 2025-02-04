@@ -23,6 +23,7 @@ print(df.to_string())
 
 # Recorre todos los valores en la columna "Duración".
 # Si el valor es superior a 120, establezca en 120:
+
 df = pd.read_csv('data.csv')
 
 for x in df.index:
@@ -32,6 +33,7 @@ for x in df.index:
 print(df.to_string())
 
 # Eliminar filas donde "Duración" es superior a 120:
+
 df = pd.read_csv('data.csv')
 
 for x in df.index:

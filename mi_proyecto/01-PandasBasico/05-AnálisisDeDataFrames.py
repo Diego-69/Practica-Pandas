@@ -7,6 +7,7 @@ específico de filas, comenzando desde la parte superior.
 '''
 
 # uso del head() para ver los primeros 10 registros de un archivo csv
+
 import pandas as pd
 
 df = pd.read_csv('data.csv')
