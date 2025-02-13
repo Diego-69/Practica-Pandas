@@ -5,7 +5,7 @@ puede solo equívoco, como si alguien registrara "199" en lugar de "1.99".
 A veces puede detectar datos incorrectos mirando el conjunto de datos,
 porque tiene una expectativa de qué debería ser.
 Si echa un vistazo a nuestro conjunto de datos,
-puede ver que en la fila 7, la duración es de 450,
+puede ver que en la fila 7, la duración es de 45,
 pero para todas las demás filas la duración es de entre 30 y 60.
 No tiene que estar mal, pero teniendo en cuenta que este es el conjunto
 de datos del entrenamiento de alguien sesiones, concluimos con el hecho
